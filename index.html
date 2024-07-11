@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Password Strength Tester</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body bgcolor="cyan">
-  <div id="container">
-    <center><h1>Password Strength Checker</h1></center>
-    <center><label for="password">Enter your password:</label></center>
-   <center> <input type="password" id="password" name="password" onkeyup="checkPasswordStrength()"></center>
-    <p id="strength-message"></p>
-  </div>
-  <script src="script.js"></script>
-  <h1>"A strong password is essential for online security. This tester helps you create a password that's difficult to crack."</h1>
-  <h1>"For maximum security, use a combination of uppercase and lowercase letters, numbers, and symbols."</h1>
-  <h1>"Consider using a password manager to generate and remember strong passwords for all your accounts."</h1>
-  <center><h1>Thanks</h1></center>
+    <center><h1>Password Strength Checker</h1>
+    <div id="password-container">
+        <input type="password" id="password" placeholder="Enter your password">
+        <div id="strength-message"></div></center>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
